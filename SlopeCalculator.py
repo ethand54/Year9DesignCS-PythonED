@@ -24,3 +24,4 @@ fSlope = rise/run
 #Output
 print("Your Slope is m="+str(rise)+"/"+str(run))
 print("Yours slope as a decimal is " +str(fSlope))
+
