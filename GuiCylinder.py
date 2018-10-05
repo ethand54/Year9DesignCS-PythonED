@@ -3,9 +3,18 @@ import tkinter as tk
 
 
 def submit():
-	print("submit hit")
-
+	print("submit pressed")
+	r = float(entr.get())
+	h = float(enth.get())
 	
+	v = math.pi*r*r*h
+	v = round(v,3)
+	
+	output.insert(tk.INSERT,v)
+
+
+
+
 root = tk.Tk()
 root.title("Volume of a Cylinder")
 
