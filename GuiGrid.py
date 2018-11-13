@@ -27,4 +27,3 @@ root.mainloop()
 #This means a function is called when we "do something"
 #For example in Fortnite when you dont touch the controller
 #the player doesnt move but once you "do something "
-#it does
