@@ -11,12 +11,12 @@ titleLabel.pack()
 
 titleLabel.grid(row = 0, column = 0, columnspan = 2)
 
-output = tk.Text(root, height = 15, width = 50)
+output = tk.Text(root, height = 30, width = 50)
 output.config(state = "disable")
 output.grid(row = 1, column = 0, columnspan = 2)
 
-word1Label = tk.Label(root, text = "Class-Topic-Understading", background = "red", foreground = "blue")
-word1Label.grid(row = 1, column = 0)
+word1Label = tk.Label(root, text = "Class-Topic-Understading", foreground = "blue")
+word1Label.grid(row = -1, column = 0)
 
 ent1 = tk.Entry(root)
 ent1.grid(row = 1, column = 1)
