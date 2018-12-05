@@ -15,11 +15,11 @@ titleLabel.pack()
 
 titleLabel.grid(row = 0, column = 0, columnspan = 2)
 
-output = tk.Text(root, height = 10, width = 50)
+output = tk.Text(root, height = 3, width = 50)
 output.config(state = "disable")
 output.grid(row = 1, column = 0, columnspan = 2)
 
-word1Label = tk.Label(root, text = "Word 1", background = "red", foreground = "blue")
+word1Label = tk.Label(root, text = "Word 1", background = "red", foreground = "white")
 word1Label.grid(row = 2, column = 0)
 
 word2Label = tk.Label(root, text = "Word 2", background = "red", foreground = "blue")
