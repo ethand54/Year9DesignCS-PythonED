@@ -18,9 +18,8 @@ output.grid(row = 1, column = 0, columnspan = 4)
 word1Label = tk.Label(root, text = "Class-Topic", foreground = "blue")
 word1Label.pack
 
-#ent1 = tk.Entry(root)
-#ent1.grid(row = 1, column = 1)
-
+ent1 = tk.Entry(root)
+ent1.pack()
 
 btnGO = tk.Button(root, text = "ENTER")
 btnGO.grid(row = 30,column = 0)\
